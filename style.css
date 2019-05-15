@@ -1,0 +1,294 @@
+
+
+body{
+	color:#FFFFFF;
+	font-size:15pt;
+	font-family: 'Quicksand', sans-serif;
+	}
+
+.nav{
+	background:#151522;
+    position:relative;
+	top:0;
+	color:white;
+	z-index:1000;
+	width:100%;
+	height:60px;
+	border-bottom:2px solid #ffd700;
+	}
+.nav-link{
+	color:white;
+	text-decoration:none;
+	transition:0.8s;
+}
+.nav-link:hover{
+	color:#ffd700;
+	
+}
+.open{
+	height:2px;
+	animation:open 0.5s forwards;
+}	
+	@keyframes open {
+  from {
+    height:2px;
+  }
+
+  to {
+    height:60px;
+  }
+}
+#dropdownMenuLink{
+	color:#6c757d;
+	background-color:#F0F8FF;
+	border-color:#F0F8FF;
+}
+
+
+
+.up{
+	background:#272744;
+	padding-top:100px;
+	color:white;
+	
+	
+	}
+.up p{padding-bottom:40px;}	
+.uppercard{
+	display:flex;
+	text-align:center;
+	border-radius:25px;
+	flex-direction:column;
+	padding:12px;
+	justify-content:center;
+	align-items:center;
+}
+.name{
+	color:#ffd700;
+}
+
+.left{float:right;}
+.view{
+	width:150px;
+	height:50px;
+}
+.view a{
+	text-decoration:none;
+	color:white;
+}
+.photo{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	border-radius:50%;
+	
+	height:150px;
+	width:150px;
+	background-image:url(photo.jpg);
+	background-size:cover;
+	overflow:hidden;
+	
+	
+	
+	
+}
+h1{text-align:center;
+   font-weight:bold;
+   font-size:40px;
+   font-weight:800;
+}
+h3{
+	border-bottom:solid 2px #ffd700;
+}
+.uppercard div{
+	margin-bottom:20px;
+	}
+
+
+.skills {
+	background-color:white;	
+	height:300px;
+}
+
+.skills .card-left{
+	background:#272744;	
+	border-radius:25px;
+	box-shadow:5px 5px 5px black;
+	text-align:center;
+	color:white;
+}
+.card-left div{
+	
+	margin-bottom:5px;
+}
+
+.skills .card-right{
+	background:#272744;	
+	border-radius:20px;
+	box-shadow:5px 5px 5px black;
+	text-align:center;
+	color:white;
+}
+
+.line-empty{
+	height:80px;
+	background-color:white;
+}
+.line{
+      height:200px;
+      text-align:center;
+	  background-color:white;
+	  color:black;
+	  
+	  }
+.line div{width:400px;
+      margin-top:40px;
+	  margin-left:auto;
+	  margin-right:auto;
+	  border-right:#ffd700 solid 2px;
+	  border-left:#ffd700 solid 2px;
+}
+ .portfolio{
+	display:flex; 
+	justify-content:center; 
+	flex-direction:row;
+	flex-wrap: wrap;
+	background-color:white;	
+	position:relative;
+ }
+.portfolio-card{
+	position:relative;
+	background-color:#272744;
+	color:white;
+	overflow:hidden;
+    margin:auto;
+    cursor: pointer;
+	width:350px;
+	height:200px;
+	margin:10px;
+	border:2px solid #ffd700;
+	text-align:center;
+	transition: all 0.5s ease-in-out;
+	
+}
+.portfolio-card:hover{
+	transform:translateY(-10px);
+	box-shadow:5px 5px 5px black;
+	border:no;
+}
+.portfolio-card-photo{
+	width:350px;
+	height:150px;
+	overflow:hidden;
+    background-size:cover;
+	
+}
+
+img{
+    overflow:hidden;
+	background-size:cover;
+	width:350px;
+	height:150px;
+	opacity:0.7;
+	transition: all 0.5s ease-in-out;
+	
+}
+img:hover{
+	transform:scale(1.1);
+	opacity:1;
+	
+}
+
+
+
+
+.premessage{
+	background-color:#272744;
+	color:white;
+}
+.connect{
+	background-color:#272744;
+}
+.message{
+	height:250px;
+    background-color:#272744;
+}
+.message .couple{
+	width:100%;
+	background-color:#383851;
+	outline:none;
+	border:none;
+	color:white;
+	padding-left:20px;
+	margin-bottom:5px;
+	}
+.message textarea{
+	width:100%;
+	height:100px;
+	background-color:#383851;
+	outline:none;
+	border:none;
+	color:white;
+	padding-left:20px;
+	
+}
+.button{
+	background-color:#272744;
+	outline:none;
+	box-shadow:solid 2px black;
+	margin-right:0px;
+	border: 2px solid white;
+	color:white;
+	transition:0.5s;
+}
+.button:hover{
+	background-color:#ffd700;
+	border:#ffd700 solid 2px;
+}
+footer{
+	display:flex;
+	background-color:#151522;
+	height:150px;
+	font-size:25px;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	
+}
+.cubebox{
+	flex-direction:row;
+	width:300px;
+	height:70px;
+	display:flex;
+}
+.cube{
+	width:50px;
+	height:50px;
+	background-color:black;
+	margin:20px;
+	text-align:center;
+	padding-top:5px;
+	transition:0.8s;
+}
+.cube:hover{
+	background-color:#ffd700;
+	
+}
+.copirate{
+	font-size:15px;
+	margin-top:10px;
+}
+
+/*animation: zoom 0.5s;
+	animation-fill-mode:forwards;
+
+
+@keyframes zoom{
+	 0%   { transform: scale(1);
+            opacity:0.7;	 }
+  
+  100% { transform: scale(1.1);
+          opacity:1;  }
+	
+	
+}
